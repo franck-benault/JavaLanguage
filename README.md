@@ -5,4 +5,9 @@ General presentation of Java language
 There are several online compiler available
 * https://www.programiz.com/java-programming
   * Actually several language are available (Python)
+* https://www.w3schools.com/java/tryjava.asp?filename=demo_compiler
+
+## Java Key word
+### final
+The final variable can be assigned only once.
 
