@@ -1,0 +1,18 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+        final String v1;
+        v1="EEEE";
+        //compilation error 
+        //because final variable can be assigned only once
+        //v1="E";
+        
+        //it is better to declare and assign a final variable 
+        //at the same time
+        final String v2="FFF";
+        
+        System.out.println("Foo "+v1+v2);
+    }
+}
