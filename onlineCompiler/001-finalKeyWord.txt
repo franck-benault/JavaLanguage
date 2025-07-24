@@ -5,8 +5,7 @@ class Main {
     public static void main(String[] args) {
         final String v1;
         v1="EEEE";
-        //compilation error 
-        //because final variable can be assigned only once
+        //compilation error (if uncommented) because final variable can be assigned only once
         //v1="E";
         
         //it is better to declare and assign a final variable 
