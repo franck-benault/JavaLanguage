@@ -3,7 +3,7 @@ General presentation of Java language
 
 ## Online compiler
 There are several online compiler available
-* https://www.programiz.com/java-programming
+* https://www.programiz.com/java-programming/online-compiler/
   * Actually several language are available (Python)
 * https://www.w3schools.com/java/tryjava.asp?filename=demo_compiler
 
