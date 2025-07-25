@@ -1,0 +1,21 @@
+//Integer 127 is put in cache
+//two different Integer with 127 are identical 
+
+
+class Main {
+    public static void main(String[] args) {
+        Integer a127=127;
+        Integer b127=127;
+	//compare reference we would expect false
+        //but it is true because it is put in cache
+        System.out.println("a127==b127 "+(a127==b127));
+        
+        Integer a128=128;
+        Integer b128=128;
+        //comparing reference gives false ... logical result
+        System.out.println("a128==b128 "+(a128==b128));
+        //comparing values gives here true
+        System.out.println("a128.equals(b128) "+(a128.equals(b128)));        
+
+    }
+}
