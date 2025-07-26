@@ -1,0 +1,39 @@
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
+
+public class Main {
+  public static void main(String[] args) {
+  	boolean bT= true;
+    boolean bF= false;
+    
+    String hello1="hello";
+    String hello2="hello";
+    
+    Integer i127A=127;
+    Integer i127B=127;
+    
+    Integer i128A=128;
+    Integer i128B=128;
+    
+    assertTrue(bT);
+    assertFalse(bF);
+    
+    assertEquals(hello1,hello2);
+    //cache effect !
+    assertSame(hello1,hello2);
+    
+    assertEquals(i127A,i127B);
+    //cache effect !
+    assertSame(i127A,i127B);
+    
+    assertEquals(i128A,i128B);
+    //128 is not put in cache
+    assertNotSame(i128A,i128B);
+    
+    System.out.print("Done");
+  }
+}
