@@ -6,6 +6,7 @@ There are several online compiler available
 * https://www.programiz.com/java-programming/online-compiler/
   * Actually several language are available (Python)
 * https://www.w3schools.com/java/tryjava.asp?filename=demo_compiler
+  * I really prefer this one. 
 
 ## Java Key word
 ### final
@@ -18,5 +19,6 @@ It let the compiler detect the type following the context.
 
 
 ## Java lambda and stream
+Java Stream and lambda have been introduced in Java 8.
 
 
