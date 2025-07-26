@@ -1,0 +1,48 @@
+import java.util.*;
+import java.util.stream.*;
+import java.util.function.*;
+
+class Artist {
+    private String from;
+    private String name;
+    
+    Artist (String name, String from) {
+        this.name=name;
+        this.from= from;
+    }
+    
+    public String toString() {
+        return "Artist name="+name+", from="+from;
+    }
+    
+    public boolean isFrom(String from) {
+    	return this.from.equals(from);
+    }
+    
+    public String getName() {
+    	return name;
+    }
+    
+}
+
+class Main {
+    public static void main(String[] args) {
+        var a1 = new Artist("Adele", "London");
+        var a2 = new Artist("Zak Abel", "London");
+        var a3 = new Artist("Adam Ant", "London");
+        var a4 = new Artist("Helene Agofroy","Paris");
+        var a5 = new Artist("Leila Alaoui","Paris");
+		var a5b = new Artist("Leila Alaoui","paris"); //error
+        
+        Collection<Artist> artists = Arrays.asList(a1,a2,a3,a4,a5,a5b);
+        
+
+		//create a map name artist    
+        var map=artists.stream()
+			.collect(Collectors.toMap(
+				Artist::getName, Function.identity(),
+            	(existing, replacement) -> replacement)); //without exception
+        System.out.println(map); 
+        
+    }
+}
