@@ -11,6 +11,12 @@ There are several online compiler available
 ### final
 The final variable can be assigned only once.
 
+### var
+It has been introduced in Java version 10.
+Var is not a "Java key word" but a reserved type name.
+It let the compiler detect the type following the context.
+
+
 ## Java lambda and stream
 
 
