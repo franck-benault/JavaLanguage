@@ -16,6 +16,10 @@ class Artist {
     public boolean isFrom(String from) {
     	return this.from.equals(from);
     }
+
+    public String getName() {
+    	return name;
+    }
     
 }
 
