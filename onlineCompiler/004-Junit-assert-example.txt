@@ -3,6 +3,7 @@ import static org.junit.Assert.assertSame;
 import static org.junit.Assert.assertNotSame;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
+import junit.runner.Version;
 
 
 public class Main {
@@ -34,6 +35,8 @@ public class Main {
     //128 is not put in cache
     assertNotSame(i128A,i128B);
     
-    System.out.print("Done");
+    System.out.println("Junit version "+ Version.id());
+    System.out.println("Done");
+    
   }
 }
