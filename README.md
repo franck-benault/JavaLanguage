@@ -28,8 +28,15 @@ Java Stream and lambda have been introduced in Java 8.
 * Function<T,R> arguments T, returns R
 * Supplier<T> arguments None, returns T
 * UnitaryOperator<T> arguments T, returns T
-* BinaryOperator<T> arguments (T,T), returns T 
+* BinaryOperator<T> arguments (T,T), returns T
 
+### Stream operations
+* collect
+* map (type convertion)
+* filter
+* flatmap
+* min max (return an Optional)
+* reduce (accumulator)
 
 ## References
 ### Books
