@@ -19,6 +19,10 @@ Var is not a "Java key word" but a reserved type name.
 It let the compiler detect the type following the context.
 
 
+## Java type and classes
+### Optional
+Optional has been introducted in Java8 and is also used with the Stream (return in the min and max).
+
 ## Java lambda and stream
 Java Stream and lambda have been introduced in Java 8.
 
