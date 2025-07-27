@@ -22,4 +22,8 @@ It let the compiler detect the type following the context.
 ## Java lambda and stream
 Java Stream and lambda have been introduced in Java 8.
 
+## References
+### Books
+* Java 8 Lambdas functional programming for the masses (Richard Warburton)
+
 
