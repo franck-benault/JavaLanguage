@@ -1,16 +1,19 @@
 import java.util.*;
+import java.util.stream.*;
 
 class Artist {
     private String from;
     private String name;
+    private int rate;   
     
-    Artist (String name, String from) {
+    Artist (String name, String from, int rate) {
         this.name=name;
         this.from= from;
+        this.rate=rate;
     }
     
     public String toString() {
-        return "Artist name="+name+", from="+from;
+        return "Artist name="+name+", from="+from+", rate="+rate;
     }
     
     public boolean isFrom(String from) {
@@ -21,17 +24,27 @@ class Artist {
     	return name;
     }
     
+    public int getRate() {
+    	return rate;
+    }
+     
+    public static Collection<Artist> getArtists() { 
+    	var a1 = new Artist("Adele", "London",10);
+        var a2 = new Artist("Zak Abel", "London",7);
+        var a3 = new Artist("Adam Ant", "London",19);
+        var a4 = new Artist("Helene Agofroy","Paris",3);
+        var a5 = new Artist("Leila Alaoui","Paris",20);
+        
+        return Arrays.asList(a1,a2,a3,a4,a5);
+    }
+    
 }
 
 class Main {
     public static void main(String[] args) {
-        var a1 = new Artist("Adele", "London");
-        var a2 = new Artist("Zak Abel", "London");
-        var a3 = new Artist("Adam Ant", "London");
-        var a4 = new Artist("Helene Agofroy","Paris");
-        var a5 = new Artist("Leila Alaoui","Paris");
-        
-        Collection<Artist> artists = Arrays.asList(a1,a2,a3,a4,a5);
+
+        Collection<Artist> artists = Artist.getArtists();
+        var stream1=artists.stream();
         
 		//count artist from London
         var count=0L;
