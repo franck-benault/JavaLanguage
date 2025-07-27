@@ -7,7 +7,7 @@ There are several online compiler available
   * Actually several language are available (Python)
 * https://www.w3schools.com/java/tryjava.asp?filename=demo_compiler
   * I really prefer this one.
-  * Junit is available
+  * Junit (4) is available
 
 ## Java Key word
 ### final
@@ -21,6 +21,15 @@ It let the compiler detect the type following the context.
 
 ## Java lambda and stream
 Java Stream and lambda have been introduced in Java 8.
+
+### Functional interface
+* Predicate<T> arguments T, returns boolenan
+* Consumer<T> arguments T, returns void
+* Function<T,R> arguments T, returns R
+* Supplier<T> arguments None, returns T
+* UnitaryOperator<T> arguments T, returns T
+* BinaryOperator<T> arguments (T,T), returns T 
+
 
 ## References
 ### Books
