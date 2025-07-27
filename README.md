@@ -20,6 +20,11 @@ It let the compiler detect the type following the context.
 
 
 ## Java type and classes
+### Boxed type
+In java all primitive type like int has a boxed type a class. 
+* for int this is Integer.
+* for long this is Long.
+
 ### Optional
 Optional has been introducted in Java8 and is also used with the Stream (return in the min and max).
 
