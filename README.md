@@ -13,6 +13,10 @@ There are several online compiler available
 ### final
 The final variable can be assigned only once.
 
+### enum
+It has been introduced in Java version 5.
+This is a special class regrouping several constants.
+
 ### var
 It has been introduced in Java version 10.
 Var is not a "Java key word" but a reserved type name.
