@@ -13,6 +13,10 @@ There are several online compiler available
 ### final
 The final variable can be assigned only once.
 
+### default
+* in switch statement
+* default implementation in an interface
+
 ### enum
 It has been introduced in Java version 5.
 This is a special class regrouping several constants.
