@@ -5,9 +5,18 @@ General presentation of Java language
 There are several online compiler available
 * https://www.programiz.com/java-programming/online-compiler/
   * Actually several language are available (Python)
+    * Java 21
+    * No Junit 
 * https://www.w3schools.com/java/tryjava.asp?filename=demo_compiler
   * I really prefer this one.
-  * Junit (4) is available
+    * Java 12
+    * Junit (4.13) is available
+* https://www.jdoodle.com/online-java-compiler
+  * Java 21
+  * No Junit
+* https://www.onlinegdb.com/online_java_compiler
+  * Java 21
+  * No Junit
 
 ## Java Key word
 ### final
