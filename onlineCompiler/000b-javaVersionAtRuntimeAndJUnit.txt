@@ -1,0 +1,14 @@
+
+//import static org.junit.Assert.assertEquals; junit5 ...
+import junit.runner.Version;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Java version  :"+System.getProperty("java.version"));
+    System.out.println("Junit version :"+Version.id());
+    assertEquals("A","A");
+    //assertEquals("A","B");
+    System.out.println("Ended OK");
+  }
+}
