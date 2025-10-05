@@ -17,6 +17,8 @@ There are several online compiler available
 * https://www.onlinegdb.com/online_java_compiler
   * Java 21
   * No Junit
+ 
+I didn't find any support of Junit5. But for very simple examples Junit4 is may be enough.
 
 ## Java Key word
 ### final
