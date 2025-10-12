@@ -1,5 +1,6 @@
 # Java Language
 General presentation of Java language.
+
 I have been working with Java language for a while and for big companies.
 A very frustating issue is in big companies you are always late.
 You still use Java 4 whereas Java 5 exists.
