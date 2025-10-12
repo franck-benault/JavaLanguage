@@ -1,0 +1,21 @@
+import java.util.Optional;
+import java.util.List;
+import java.util.Arrays;
+
+public class Main {
+  public static void main(String[] args) {
+  
+    List<Integer> listOfIntegers = Arrays.asList(1, 2, -3, 7, 5, 7, 9, 3);
+
+    Integer max = listOfIntegers
+      .stream()
+      .max(Integer::compare).get();
+
+   Integer min = listOfIntegers
+      .stream()
+      .min(Integer::compare).get();
+    
+    System.out.println("Max "+max);
+    System.out.println("Min "+min);
+  }
+}
