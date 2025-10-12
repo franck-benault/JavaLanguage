@@ -8,6 +8,11 @@ You still use Java 8 whereas Java 25 is available...
 
 ## Online compiler
 There are several online compiler available
+* https://www.jdoodle.com/online-java-compiler
+  * Java 21
+  * No Junit
+  * But it is possible to load jar (example Junit5)
+    * Best choice ?
 * https://www.programiz.com/java-programming/online-compiler/
   * Actually several language are available (Python)
     * Java 21
@@ -16,9 +21,6 @@ There are several online compiler available
   * I really prefer this one.
     * Java 14
     * Junit (4.13) is available
-* https://www.jdoodle.com/online-java-compiler
-  * Java 21
-  * No Junit
 * https://www.onlinegdb.com/online_java_compiler
   * Java 21
   * No Junit
