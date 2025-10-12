@@ -50,7 +50,7 @@ In java all primitive type like int has a boxed type a class.
 * for long this is Long.
 
 ### Optional
-Optional has been introducted in Java8 and is also used with the Stream (return in the min and max).
+Optional has been introducted in Java8. You may ask what is the added value of the Optional. But when you work with the Stream you see that it is really useful (return in the min and max avoid null pointer exception).
 
 ## Java lambda and stream
 Java Stream and lambda have been introduced in Java 8.
