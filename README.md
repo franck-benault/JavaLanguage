@@ -1,5 +1,9 @@
 # Java Language
-General presentation of Java language
+General presentation of Java language.
+I have been working with Java language for a while and for big companies.
+A very frustating issue is in big companies you are always late.
+You still use Java 4 whereas Java 5 exists.
+You still use Java 8 whereas Java 25 is available...
 
 ## Online compiler
 There are several online compiler available
