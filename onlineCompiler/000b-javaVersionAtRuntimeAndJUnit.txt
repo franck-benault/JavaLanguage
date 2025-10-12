@@ -1,14 +1,19 @@
+//add dependancy org.junit.jupiter:junit-jupiter-api:5.14.0
 
-//import static org.junit.Assert.assertEquals; junit5 ...
-import junit.runner.Version;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
+import org.junit.jupiter.api.Test;
+
 
 public class Main {
   public static void main(String[] args) {
     System.out.println("Java version  :"+System.getProperty("java.version"));
-    System.out.println("Junit version :"+Version.id());
+    //System.out.println("Junit version :"+Version.id());
+    System.out.println("JUnit Version: " + Test.class.getPackage().getImplementationVersion());
+
     assertEquals("A","A");
-    //assertEquals("A","B");
+    assertNotEquals("A","B");
     System.out.println("Ended OK");
   }
 }
