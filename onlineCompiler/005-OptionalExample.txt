@@ -1,0 +1,16 @@
+import java.util.Optional;
+
+public class Main {
+  public static void main(String[] args) {
+  
+  	Optional<String> op1= Optional.of("MyValue1");
+    Optional<String> op2= Optional.ofNullable(null);
+    
+    System.out.println("isPresent op1 "+op1.isPresent());
+    System.out.println("isPresent op2 "+op2.isPresent());
+  
+  	System.out.println("End with op1 "+op1.get());
+    
+    System.out.println("End with op2 "+op2.orElseGet(() -> "Default value"));
+  }
+}
